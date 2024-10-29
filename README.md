@@ -242,23 +242,24 @@ case 15 notre varibale ``ageHuit`` est de 15 donc elle va afficher ``console.log
 le switch case aurait pu continuer jusqu'a default et finir par ``console.log("tes qui ? ");``
 ``switch(ageHuit) {``
 
-``  case  10 :``<br>
-     ``console.log('tes un enfant');``<br>
-``  break ;``<br>
-``   case 15 : ``<br>
-  `` console.log('tu es un ado');``<br>
-   ``break ;``<br>
-  `` case 20 : ``<br>
-  ``  console.log('tes un adulte');``<br>
-``   break ;``<br>
-``   case 25 :``<br>
-    `` console.log('tes un peut plus qu'un adulte');``<br>
-  ``  break ;``
- ``   default : ``
-  ``  console.log("tes qui ? ");``<br>
-``    break ;``<br>
-
-``}`` <br>
+```js
+  case  10 : <br>
+    console.log('tes un enfant');
+ break ;
+  case 15 : 
+   console.log('tu es un ado');
+   break ;
+   case 20 : .+
+ console.log('tes un adulte');
+   break ;
+   case 25 :
+     console.log('tes un peut plus qu'un adulte');
+    break ;
+    default : 
+    console.log("tes qui ? ");
+  break ;
+}
+```
 
 
 
