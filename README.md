@@ -111,11 +111,16 @@ deuxieme argument ``""`` pour remplacer les consonnes par une chaine de caracter
 
 ``.repeat(8)``permet de répéter le nombre de fois indiquer dans les parenthèse
 
+``Math.ceil()`` retourne le plus petit entier supérieur ou égal au nombre donné.
+
+``-Math.abs()`` renvoie les number en negatif 
 
 ``Math.min()``  renvoie le plus petit nombre d'une série de 0 ou plusieurs nombres ou bien NaN si au moins un des arguments fourni n'est pas un nombre ou ne peut pas être converti en nombre.
 
 
 ``Math.max()`` renvoie le plus grand nombre parmi ceux passés en paramètres
+
+``map()`` crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant
 
 ``toUpperCase()`` pour tout passer en majuscule
 
