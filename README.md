@@ -146,15 +146,17 @@ du coup si ma varible => fizz buzz est un modulo de 2 du coup  sa fait une ``ale
 sinon  sa reguarde avec un ternaire SI  c'est un modulo de 2 et de 5 du coup sa fait ``alert fizzbuzz`` <br>
 et si ma varibale ``fizzBuzz`` ne remplie aucun de ses condition du coup sa fait ``alert rien``
 
- ``if (fizzBuzz % 2 === 0){ `` <br>
-`` alert(fizzBuzz + " fizz")`` <br>
-``}else if (fizzBuzz % 5 === 0) {`` <br>
-  ``  alert(fizzBuzz + " envoie buzz")`` <br>
- ``}else if (fizzBuzz % 2 === 0 && fizzBuzz % 5 !== 0) { `` <br>
-``    alert(fizzBuzz + " fizzbuzz")``<br>
-``  } else  {`` <br>
-    ``   alert(fizzBuzz + " rien") `` <br>
-``} ``<br>
+```js
+ if (fizzBuzz % 2 === 0){  
+ alert(fizzBuzz + " fizz") 
+}else if (fizzBuzz % 5 === 0) {
+ alert(fizzBuzz + " envoie buzz")
+}else if (fizzBuzz % 2 === 0 && fizzBuzz % 5 !== 0) { 
+  alert(fizzBuzz + " fizzbuzz")
+  } else  {
+      alert(fizzBuzz + " rien") <br>
+}
+```
 
 ## ternaire
 
