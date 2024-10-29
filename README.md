@@ -106,7 +106,8 @@ pour utiliser Split pour enlever TOUT espace il faut taper ``split(' ')`` suivie
 ``slice(1,-1)`` Slice va enlever la lettee selectionner -1 pour prendre la derniere 1 pour la premiere
 
 ``replace()`` permet de remplacer une partie de la chaine par autre choses le premiere arguement et ce qu'on cherche et le deuxieme et ce par quoi on le remplace un petit exemple : ``/[^aeiou]/gi`` cette arguement comprends par ``^`` pour dire ``tout sauf`` ensuite ``aeiou`` pour les voyelle donc `` tous sauf les voyelles`` ensuite le ``g`` pour global et le ``i`` pour insensible a la casse <br>
-deuxieme argument ``""`` pour remplacer les consonnes par une chaine de caractere vide
+deuxieme argument ``""`` pour remplacer les consonnes par une chaine de caractere vide <br>
+ en enlevent le ``^`` sa inverserait le tout et les voyelles serait enlever et non les consonne 
 
 ``.repeat(8)``permet de répéter le nombre de fois indiquer dans les parenthèse
 
