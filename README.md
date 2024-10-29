@@ -243,13 +243,13 @@ le switch case aurait pu continuer jusqu'a default et finir par ``console.log("t
 ``switch(ageHuit) {``
 
 ```js
-  case  10 : <br>
+  case  10 : 
     console.log('tes un enfant');
  break ;
   case 15 : 
    console.log('tu es un ado');
    break ;
-   case 20 : .+
+   case 20 : 
  console.log('tes un adulte');
    break ;
    case 25 :
