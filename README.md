@@ -71,7 +71,7 @@ on peut dire que que ``null == undefined`` mais pas que ``null === undefined``
 
 ``||`` signifie OU 
 
-``...``  affectation par décomposition  est une expression JavaScript qui permet d'extraire (unpack en anglais) des données d'un tableau ou d'un objet grâce à une syntaxe dont la forme ressemble à la structure du tableau ou de l'objet.
+``...``  affectation par décomposition  est une expression JavaScript qui permet d'extraire des données d'un tableau ou d'un objet grâce à une syntaxe dont la forme ressemble à la structure du tableau ou de l'objet.
 
 
 ## les therme important 
@@ -145,17 +145,17 @@ on modifie la varibale pour aussi s'ecrire comme ceci ``let fizzBuzz = 10;`` <br
 du coup si ma varible => fizz buzz est un modulo de 2 du coup  sa fait une ``alert fizz`` <br> sinon sa reguarde si ma variable est un modulo de 5 du coup sa fait `` alert buzz`` <br>
 sinon  sa reguarde avec un ternaire SI  c'est un modulo de 2 et de 5 du coup sa fait ``alert fizzbuzz`` <br>
 et si ma varibale ``fizzBuzz`` ne remplie aucun de ses condition du coup sa fait ``alert rien``
-```js
- if (fizzBuzz % 2 === 0){ 
-  alert(fizzBuzz + " fizz")
-}else if (fizzBuzz % 5 === 0) {
-  alert(fizzBuzz + " envoie buzz")
-}else if (fizzBuzz % 2 === 0 && fizzBuzz % 5 !== 0) {
-    alert(fizzBuzz + " fizzbuzz")
-  } else  {
-       alert(fizzBuzz + " rien") 
-} 
-```
+
+ ``if (fizzBuzz % 2 === 0){ `` <br>
+`` alert(fizzBuzz + " fizz")`` <br>
+``}else if (fizzBuzz % 5 === 0) {`` <br>
+  ``  alert(fizzBuzz + " envoie buzz")`` <br>
+ ``}else if (fizzBuzz % 2 === 0 && fizzBuzz % 5 !== 0) { `` <br>
+``    alert(fizzBuzz + " fizzbuzz")``<br>
+``  } else  {`` <br>
+    ``   alert(fizzBuzz + " rien") `` <br>
+``} ``<br>
+
 ## ternaire
 
 un exemple de ternaire 
