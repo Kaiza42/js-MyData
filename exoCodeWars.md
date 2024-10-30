@@ -5,7 +5,8 @@
   return str.split("").reverse().join("").split(" ").reverse().join(" ");
  }
 
-# Boucle inachevée – Correction de bug n°1
+# Create Phone Number kyu 6
+
 ```js
  return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
  ```
@@ -106,13 +107,6 @@ function evalObject(value){
 }
 ```
 
-## Basic variable assignmen kyu 8
-
-```js
-var a = "code";
-var b = "wa.rs";
-var name = a + b;
-```
 
 ## String repeat kyu 8 
 
@@ -158,3 +152,100 @@ function invert(array) {
 ```js
  return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
  ```
+
+
+## Grasshopper - If/else syntax debug 8 kyu 
+
+```js
+function checkAlive (health) {
+  if (health > 0) {
+    return true
+  } else {
+    return false
+  }
+}
+ ```
+## Opposites Attract
+```js
+ function lovefunc(flower1,flower2){
+				if (flower1 % 2 == 0 && flower2 % 2 !==0) {
+					return true;
+				}else if(flower1 % 2 !==0 && flower2 % 2==0){
+					return true;
+				}else return false;
+			}
+```
+## Multiply the number kyu 8
+
+```js
+function multiply(number){
+  //your code 
+ return number * Math.pow(5, number.toString().replace('-','').length)
+}
+```
+## Get the Middle Character
+
+```js
+function getMiddle(s)
+{
+  return s.slice((s.length-1)/2, s.length/2+1);
+}
+```
+
+## Get Planet Name By ID
+
+```js
+function getPlanetName(id){
+  var name;
+  switch(id){
+    case 1:
+      name = 'Mercury'
+      break;
+    case 2:
+      name = 'Venus'
+      break;
+    case 3:
+      name = 'Earth'
+      break;
+    case 4:
+      name = 'Mars'
+      break;
+    case 5:
+      name = 'Jupiter'
+      break;
+    case 6:
+      name = 'Saturn'
+      break;
+    case 7:
+      name = 'Uranus'
+      break;
+    case 8:
+      name = 'Neptune'
+  }
+  
+  return name;
+}
+
+```
+
+## Capitalization and Mutability
+
+```js
+function capitalizeWord(word) {
+ 
+  return word.charAt(0).toUpperCase() + word.slice(1);
+}
+```
+
+```js
+## Square(n) Sum kyu 8
+
+function squareSum(numbers){
+  
+return numbers
+  .map(n => n * n )
+  .reduce((total,n)=> {
+  return total +n;},0)
+  
+}
+```
