@@ -21,12 +21,11 @@ la partie la plus interessante ``le premier ($1) place le premiere grouppe entre
 
 j'ai plutot mal compris cette ligne du coup je vais la décomposer élement par élement. <br>
 
-
 ``a.filter``  créer un nouveau tableau qui contient uniquement a qu'on appel ici ``item`` donc : ``a.filter(item)`` <br>
 ``item =>``c'est une fonction fléché qui sert de ``callBack`` la fonction fléché prends chaque élément de a donc item sa donne ``a.filter(item =>)`` <br>
 ``!b.includes(item)`` c'est la condition qui permet de verifier si aucun élement de ``a`` est présent dans ``b`` donc : ``a.filter(item => !b.includes(item))``
 
-```js
+```js  
 return a.filter(item => !b.includes(item));
 ```
 
