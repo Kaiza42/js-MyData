@@ -544,3 +544,277 @@ function checkForFactor (base, factor) {
 }
 ```
 
+## Sum The Strings
+```js 
+function sumStr(a,b) {
+if (a === '') a = '0'
+  if (b === '') b = '0'
+return `${parseInt(a) + parseInt(b)}`
+}
+```
+## Reverse list
+```js 
+function reverseList(arr) {
+  return arr.reverse()
+}
+```
+## Switch it Up!
+```js 
+function switchItUp(number){
+//Write your own Code!
+  switch(number){
+      case 1 :
+      return "One"
+      break;
+       case 2 :
+      return "Two"
+      break;
+       case 3 :
+      return "Three"
+      break;
+        case 4 :
+      return "Four"
+      break;
+       case 5 :
+      return "Five"
+      break;
+       case 6 :
+      return "Six"
+      break;
+      case 7 :
+      return "Seven"
+      break;
+      case 8 :
+      return "Eight"
+      break;
+       case 9 :
+      return "Nine"
+      break;
+      default : 
+      return "Zero"
+  }
+}
+```
+
+## Removing Elements
+
+```js 
+function removeEveryOther(arr){
+  //your code here
+  return arr.filter((envieDeDeceder, abbattezMoi) => abbattezMoi % 2 === 0 )
+}
+```
+## Grasshopper - Debug sayHello
+
+```js 
+function sayHello(killMePlease) {
+  return 'Hello, ' + killMePlease
+}
+```
+## Grasshopper - Combine strings kyu 8 
+
+```js 
+// Create the combineNames function here
+let combineNames = (... name) => name.join(' ')
+```
+##  Reversing Words in a String
+```js 
+function reverse(string){
+  //your code here
+  return string.split(' ').reverse().join(' ')
+}
+```
+
+## String cleaning kyu 8
+```js 
+function stringClean(s){
+  // Function will return the cleaned string
+  return s.replace(/\d/g,'')
+}
+```
+
+## Chuck Norris VII - True or False? (Beginner)
+
+```js 
+function ifChuckSaysSo(){
+return !true
+}
+```
+
+## Drink about kyu 8 
+
+```js 
+function peopleWithAgeDrink(old) {
+  if (old < 14){
+    return 'drink toddy'
+  }else if (old < 18){
+    return 'drink coke'
+  }else if (old < 21){
+    return 'drink beer'
+  }else{
+  return  'drink whisky'
+  }
+  
+};
+```
+
+## Fundamentals: Retur kyu 8 
+
+```js 
+function add(a,b){
+    return a + b 
+}
+
+function divide(a,b){
+    return a / b 
+}
+
+function multiply(a,b){
+    return a* b
+}
+
+function mod(a,b){
+    return a % b 
+}
+   
+function exponent(a,b){
+    return a ** b 
+}
+    
+function subt(a,b){
+    return a -b 
+}
+```
+## Rock Paper Scissors! kyu 8
+
+```js
+const rps = (p1, p2) => {
+  if(p1 === 'rock' && p2 === 'scissors'){
+    return "Player 1 won!"
+  }else if (p1 === 'paper' && p2 === 'rock'){
+    return "Player 1 won!"
+  }else if (p1 === 'scissors' && p2 === 'paper'){
+   return "Player 1 won!"
+  }else if (p1 === p2){
+    return 'Draw!'
+  } else{
+ 
+     return "Player 2 won!"
+  }
+};
+```
+
+## Return the day
+
+```js
+function whatday(num) { 
+
+  // put your code here
+if( num == 1){
+  return "Sunday"
+}else if(num == 2){
+  return "Monday"
+}else if(num == 3) {
+  return "Tuesday"
+}else if (num == 4){
+  return "Wednesday"
+}else if (num == 5){
+  return "Thursday"
+}else if (num == 6){
+  return "Friday"
+}else if (num == 7){
+  return "Saturday"
+}else{
+  return "Wrong, please enter a number between 1 and 7"
+
+}
+}
+```
+## If you can't sleep, just count sheep!! kyu 8 
+
+```js
+var countSheep = function (num){
+  //your code here
+  
+  let result = ''
+  for(let i = 1 ; i <= num ; i++){
+     result += i.toString() + " sheep..."
+    
+  }
+   return result
+    
+}
+```
+## Grasshopper - Fonction buts Messi kyu 8
+
+```js
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+```
+## Grasshopper - Fixateur de fonctions de base kyu 8
+```js
+function addFive(num) {
+  var total = num + 5
+  return total
+}
+```
+
+## Grasshopper - Fonction de combat du jeu terminal kyu 8
+
+```js
+function combat(health, damage) {
+  // Write your code here
+  if ( health < damage){
+    return 0
+  }else {
+    return health - damage 
+  }
+}
+```
+## Keep up the hoop kyu 8
+
+```js
+function hoopCount (n) {
+   //your code goes here   
+  if ( n >= 10 ){
+    return "Great, now move on to tricks"
+  }else {
+    return "Keep at it until you get it"
+  }
+}
+```
+## Reverse List Order kyu 8 
+
+```js
+function reverseList(list) {
+return list.reverse()
+}
+```
+## Vowel remover kyu 8 
+
+```js
+function shortcut (string) {
+  return string.replace((/[aeiou]/gi), '')
+}
+```
+## Welcome to the City
+
+```js
+function sayHello( name, city, state ) {
+  name = name.join(' ')
+
+
+  return 'Hello, ' + name + '! Welcome to ' + city + ', ' + state + '!'
+}
+```
+
+## Remove the time kyu 8
+
+```js
+function shortenToDate(longDate) {
+  // your code here
+  
+  return longDate.split(' ').slice(0,-1).join(' ').replace((/,/), '')
+}
+```

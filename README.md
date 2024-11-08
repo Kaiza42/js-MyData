@@ -76,6 +76,15 @@ on peut dire que que ``null == undefined`` mais pas que ``null === undefined``
 
 ## les therme important 
 
+
+
+
+``serialisation`` Le processus par lequel un objet ou une structure de données est traduit dans un format approprié pour un transfert sur un réseau, ou un stockage
+
+``outerHTML`` renvoie une valeur ``DOMString`` contenant la ``serialisation``html décrivant l'élément ainsi que ses descendants. Il peut aussi être utilisé pour remplacer l'élément avec les noeuds générés de la chaîne fournie.
+
+``textContent``sa représente les élement textuel et de ses descendants
+
 ``getElementById`` va prendre un ID dans le html pour l'utiliser dans Js 
 
 ``document`` https://developer.mozilla.org/fr/docs/Web/API/Document a préciser a comprendre
@@ -130,6 +139,27 @@ deuxieme argument ``""`` pour remplacer les consonnes par une chaine de caracter
 ``alert()`` sa fait une popup en haut de l'ecran avec le contenue <br>
 
 ``console.log()`` pour verifier un console.log on doit faire inspecter la page et aller dans ``console`` pour verifier le contenue
+
+``console.dir()``  affiche l’élément en tant qu’objet DOM, bon pour explorer ses propriétés.
+
+## le DOM du moins...  ce que j'en comprends
+
+les ``node on un type la propriété nodeType fournit une autre méthode “à l’ancienne” pour obtenir le “type” d’un nœud DOM.
+
+Il a une valeur numérique : ``elem.nodetype == 1``pour les ``noeud élement ``
+                            ``elem.nodetype == 2`` pour les ``attribut ``
+                            ``elem.nodetype == 3`` pour les ``texte``
+                            ``elem.nodetype == 4`` pour la ``cdata section``
+                            ``elem.nodetype == 5`` pour ``entity referance``
+                            ``elem.nodetype == 6`` pour ``entity ``
+                            ``elem.nodetype == 7`` pour ``processing instruction``
+                            ``elem.nodetype == 8`` pour ``comentaire``
+                            ``elem.nodetype == 9`` pour ``document``
+                            ``elem.nodetype == 10`` pour ``document type``
+                            ``elem.nodetype == 11`` pour `` Document fragment``
+                            ``elem.nodetype == 12`` pour ``Notation``
+                            
+
 
 
 

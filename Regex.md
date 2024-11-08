@@ -28,7 +28,7 @@
 
 ## Celui ci permet d'enlerver n'importe quel mot choisie 
 ```js
-/bad|mean|ugly|horrible|hideous/
+replace((/bad|mean|ugly|horrible|hideous/), 'beau')
 ```
 ## celui ci fait un orloge de 0h     a 00h 
 ```js
